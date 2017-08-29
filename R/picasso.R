@@ -16,7 +16,7 @@ picasso <- function(X,
 {
   if (family != "gaussian" && family != "binomial" &&  family != "poisson" && family != "sqrtlasso"){
     cat(" Wrong \"family\" input. \n \"family\" should be 
-           one of \"gaussian\", \"binomial\" and \"poisson\".\n", 
+           one of \"gaussian\", \"binomial\", \"sqrtlasso\" and \"poisson\".\n", 
         family," is not supported in this version. \n")
     return(NULL)
   }
